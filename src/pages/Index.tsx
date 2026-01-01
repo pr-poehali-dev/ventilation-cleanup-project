@@ -224,94 +224,45 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               Примеры <span className="text-primary">наших работ</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Результаты профессиональной очистки и дезинфекции систем вентиляции
-            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="overflow-hidden bg-card/80 backdrop-blur-sm border-primary/30 hover:border-primary/50 transition-all group animate-fade-in">
+            <Card className="overflow-hidden bg-card/80 backdrop-blur-sm border-primary/30 hover:border-primary/50 transition-all group">
               <div className="relative h-80 overflow-hidden">
                 <img 
                   src="https://cdn.poehali.dev/files/20114.jpg"
-                  alt="До и после очистки вентиляционного канала"
+                  alt="Очистка воздуховода"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm px-3 py-1 rounded-full">
-                  <span className="text-xs font-semibold text-white">До / После</span>
-                </div>
               </div>
-              <div className="p-6">
-                <h3 className="font-semibold text-xl mb-2">Очистка воздуховода</h3>
-                <p className="text-muted-foreground text-sm mb-4">
-                  Удаление многолетних загрязнений и пыли из воздуховода
-                </p>
-                <div className="flex items-center gap-2 text-sm text-primary">
-                  <Icon name="CheckCircle2" size={16} />
-                  <span>100% очистка канала</span>
-                </div>
+              <div className="p-4">
+                <h3 className="font-semibold text-lg">Очистка воздуховода</h3>
               </div>
             </Card>
 
-            <Card className="overflow-hidden bg-card/80 backdrop-blur-sm border-primary/30 hover:border-primary/50 transition-all group animate-fade-in" style={{ animationDelay: '0.1s' }}>
+            <Card className="overflow-hidden bg-card/80 backdrop-blur-sm border-primary/30 hover:border-primary/50 transition-all group">
               <div className="relative h-80 overflow-hidden">
                 <img 
                   src="https://cdn.poehali.dev/files/20115.jpg"
-                  alt="До и после очистки промышленной вентиляции"
+                  alt="Очистка внешних частей"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm px-3 py-1 rounded-full">
-                  <span className="text-xs font-semibold text-white">До / После</span>
-                </div>
               </div>
-              <div className="p-6">
-                <h3 className="font-semibold text-xl mb-2">Очистка внешних частей</h3>
-                <p className="text-muted-foreground text-sm mb-4">
-                  Очистка воздуховодов от жировых и масляных отложений на производстве
-                </p>
-                <div className="flex items-center gap-2 text-sm text-primary">
-                  <Icon name="CheckCircle2" size={16} />
-                  <span>Дезинфекция выполнена</span>
-                </div>
+              <div className="p-4">
+                <h3 className="font-semibold text-lg">Очистка внешних частей</h3>
               </div>
             </Card>
 
-            <Card className="overflow-hidden bg-card/80 backdrop-blur-sm border-primary/30 hover:border-primary/50 transition-all group animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            <Card className="overflow-hidden bg-card/80 backdrop-blur-sm border-primary/30 hover:border-primary/50 transition-all group">
               <div className="relative h-80 overflow-hidden">
                 <img 
                   src="https://cdn.poehali.dev/files/20119.jpg"
-                  alt="Результаты очистки вентиляционной системы"
+                  alt="Комплексная очистка"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute top-4 right-4 bg-accent/90 backdrop-blur-sm px-3 py-1 rounded-full">
-                  <span className="text-xs font-semibold text-white">Результат</span>
-                </div>
               </div>
-              <div className="p-6">
-                <h3 className="font-semibold text-xl mb-2">Комплексная очистка</h3>
-                <p className="text-muted-foreground text-sm mb-4">
-                  Полная обработка вентиляционных каналов и решеток от загрязнений
-                </p>
-                <div className="flex items-center gap-2 text-sm text-primary">
-                  <Icon name="CheckCircle2" size={16} />
-                  <span>Гарантия 12 месяцев</span>
-                </div>
-              </div>
-            </Card>
-          </div>
-
-          <div className="mt-12 text-center animate-fade-in" style={{ animationDelay: '0.3s' }}>
-            <Card className="inline-block p-6 bg-gradient-to-br from-primary/10 to-accent/10 border-primary/30">
-              <div className="flex items-center gap-4">
-                <div className="p-3 bg-primary/20 rounded-xl">
-                  <Icon name="Camera" size={32} className="text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg mb-1">Фото- и видеофиксация</h4>
-                  <p className="text-sm text-muted-foreground">
-                    Документируем каждый этап работы для вашего контроля качества
-                  </p>
-                </div>
+              <div className="p-4">
+                <h3 className="font-semibold text-lg">Комплексная очистка</h3>
               </div>
             </Card>
           </div>
