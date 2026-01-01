@@ -231,10 +231,10 @@ const Index = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="overflow-hidden bg-card/80 backdrop-blur-sm border-primary/30 hover:border-primary/50 transition-all group animate-fade-in">
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-80 overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/projects/cd54e823-a8df-4320-9b4b-cfaf99240937/files/27301003-942f-4995-9e18-7a1a0ae7e428.jpg"
-                  alt="До и после очистки вентиляции"
+                  src="https://cdn.poehali.dev/files/20114.jpg"
+                  alt="До и после очистки вентиляционного канала"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm px-3 py-1 rounded-full">
@@ -242,22 +242,45 @@ const Index = () => {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="font-semibold text-xl mb-2">Офисное здание</h3>
+                <h3 className="font-semibold text-xl mb-2">Вентиляционный канал</h3>
                 <p className="text-muted-foreground text-sm mb-4">
-                  Полная очистка системы вентиляции от жировых отложений и пыли
+                  Удаление многолетних загрязнений и пыли из воздуховода
                 </p>
                 <div className="flex items-center gap-2 text-sm text-primary">
                   <Icon name="CheckCircle2" size={16} />
-                  <span>Завершено за 2 дня</span>
+                  <span>100% очистка канала</span>
                 </div>
               </div>
             </Card>
 
             <Card className="overflow-hidden bg-card/80 backdrop-blur-sm border-primary/30 hover:border-primary/50 transition-all group animate-fade-in" style={{ animationDelay: '0.1s' }}>
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-80 overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/projects/cd54e823-a8df-4320-9b4b-cfaf99240937/files/684aa70b-72f6-432c-9853-acb1f5cc3df5.jpg"
-                  alt="Чистая вентиляционная система"
+                  src="https://cdn.poehali.dev/files/20115.jpg"
+                  alt="До и после очистки промышленной вентиляции"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm px-3 py-1 rounded-full">
+                  <span className="text-xs font-semibold text-white">До / После</span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="font-semibold text-xl mb-2">Промышленная вентиляция</h3>
+                <p className="text-muted-foreground text-sm mb-4">
+                  Очистка воздуховодов от жировых и масляных отложений на производстве
+                </p>
+                <div className="flex items-center gap-2 text-sm text-primary">
+                  <Icon name="CheckCircle2" size={16} />
+                  <span>Дезинфекция выполнена</span>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="overflow-hidden bg-card/80 backdrop-blur-sm border-primary/30 hover:border-primary/50 transition-all group animate-fade-in" style={{ animationDelay: '0.2s' }}>
+              <div className="relative h-80 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/20119.jpg"
+                  alt="Результаты очистки вентиляционной системы"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute top-4 right-4 bg-accent/90 backdrop-blur-sm px-3 py-1 rounded-full">
@@ -265,32 +288,9 @@ const Index = () => {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="font-semibold text-xl mb-2">Производственный цех</h3>
+                <h3 className="font-semibold text-xl mb-2">Комплексная очистка</h3>
                 <p className="text-muted-foreground text-sm mb-4">
-                  Модернизация и глубокая очистка промышленной вентиляции
-                </p>
-                <div className="flex items-center gap-2 text-sm text-primary">
-                  <Icon name="CheckCircle2" size={16} />
-                  <span>UV-дезинфекция применена</span>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="overflow-hidden bg-card/80 backdrop-blur-sm border-primary/30 hover:border-primary/50 transition-all group animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              <div className="relative h-64 overflow-hidden">
-                <img 
-                  src="https://cdn.poehali.dev/projects/cd54e823-a8df-4320-9b4b-cfaf99240937/files/0b8861b3-8c06-428b-bc15-22a724371258.jpg"
-                  alt="Процесс очистки вентиляции"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm px-3 py-1 rounded-full">
-                  <span className="text-xs font-semibold text-white">В процессе</span>
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="font-semibold text-xl mb-2">Торговый центр</h3>
-                <p className="text-muted-foreground text-sm mb-4">
-                  Комплексная очистка центральной системы кондиционирования
+                  Полная обработка вентиляционных каналов и решеток от загрязнений
                 </p>
                 <div className="flex items-center gap-2 text-sm text-primary">
                   <Icon name="CheckCircle2" size={16} />
