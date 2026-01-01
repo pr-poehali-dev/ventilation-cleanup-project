@@ -242,7 +242,7 @@ const Index = () => {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="font-semibold text-xl mb-2">Вентиляционный канал</h3>
+                <h3 className="font-semibold text-xl mb-2">Очистка воздуховода</h3>
                 <p className="text-muted-foreground text-sm mb-4">
                   Удаление многолетних загрязнений и пыли из воздуховода
                 </p>
@@ -265,7 +265,7 @@ const Index = () => {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="font-semibold text-xl mb-2">Промышленная вентиляция</h3>
+                <h3 className="font-semibold text-xl mb-2">Очистка внешних частей</h3>
                 <p className="text-muted-foreground text-sm mb-4">
                   Очистка воздуховодов от жировых и масляных отложений на производстве
                 </p>
